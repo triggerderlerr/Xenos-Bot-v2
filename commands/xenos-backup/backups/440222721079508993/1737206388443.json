@@ -1,0 +1,934 @@
+{
+  "server": {
+    "name": "dolmuşu olmayan gelemez",
+    "icon": "https://cdn.discordapp.com/icons/1059516811223257159/8b8793daf1603934b8edf0a283078216.webp",
+    "verificationLevel": 1,
+    "defaultMessageNotifications": 1
+  },
+  "roles": [
+    {
+      "name": "Tempo",
+      "color": 0,
+      "hoisted": false,
+      "mentionable": false,
+      "permissions": "2243292224"
+    },
+    {
+      "name": "Register-Staff",
+      "color": 0,
+      "hoisted": false,
+      "mentionable": false,
+      "permissions": "0"
+    },
+    {
+      "name": "Unregistered",
+      "color": 15105570,
+      "hoisted": true,
+      "mentionable": true,
+      "permissions": "0"
+    },
+    {
+      "name": "Server-Bots",
+      "color": 16777215,
+      "hoisted": true,
+      "mentionable": false,
+      "permissions": "2108859006582775"
+    },
+    {
+      "name": "♂",
+      "color": 10092543,
+      "hoisted": false,
+      "mentionable": false,
+      "permissions": "37031489"
+    },
+    {
+      "name": "Poseidon",
+      "color": 3408127,
+      "hoisted": true,
+      "mentionable": false,
+      "permissions": "37030465"
+    },
+    {
+      "name": "♀",
+      "color": 16532402,
+      "hoisted": false,
+      "mentionable": false,
+      "permissions": "37031489"
+    },
+    {
+      "name": "Athena",
+      "color": 15277667,
+      "hoisted": true,
+      "mentionable": false,
+      "permissions": "37031489"
+    },
+    {
+      "name": "Vip",
+      "color": 16773632,
+      "hoisted": true,
+      "mentionable": false,
+      "permissions": "37031489"
+    },
+    {
+      "name": "Family Of Server",
+      "color": 646655,
+      "hoisted": true,
+      "mentionable": false,
+      "permissions": "96731136"
+    },
+    {
+      "name": "Free Stuff",
+      "color": 0,
+      "hoisted": false,
+      "mentionable": false,
+      "permissions": "537316416"
+    },
+    {
+      "name": "Müzik-Bot",
+      "color": 0,
+      "hoisted": false,
+      "mentionable": false,
+      "permissions": "0"
+    },
+    {
+      "name": "Server Booster",
+      "color": 16023551,
+      "hoisted": false,
+      "mentionable": false,
+      "permissions": "1071698660929"
+    },
+    {
+      "name": "Gods of the Server",
+      "color": 43519,
+      "hoisted": true,
+      "mentionable": false,
+      "permissions": "104320577"
+    },
+    {
+      "name": "Founder Of Server",
+      "color": 16649984,
+      "hoisted": true,
+      "mentionable": false,
+      "permissions": "37031425"
+    },
+    {
+      "name": "Xenos Bot",
+      "color": 0,
+      "hoisted": false,
+      "mentionable": false,
+      "permissions": "0"
+    },
+    {
+      "name": "🔱",
+      "color": 0,
+      "hoisted": false,
+      "mentionable": false,
+      "permissions": "8"
+    },
+    {
+      "name": "test bot trigger",
+      "color": 0,
+      "hoisted": false,
+      "mentionable": false,
+      "permissions": "683331414392831"
+    }
+  ],
+  "channels": [
+    {
+      "id": "1264531496425885777",
+      "name": "🤖 Bot - 5",
+      "type": 2,
+      "position": 2,
+      "parentId": "1264531490432352257",
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": 64000,
+      "permissionOverwrites": [
+        {
+          "roleName": "♀",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "roleName": "@everyone",
+          "allow": "0",
+          "deny": "1048576"
+        },
+        {
+          "roleName": "♂",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531433511321762",
+      "name": "Text  Channels",
+      "type": 4,
+      "position": 1,
+      "parentId": null,
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": null,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "36965440",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1264531490432352257",
+      "name": "Stats",
+      "type": 4,
+      "position": 6,
+      "parentId": null,
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": null,
+      "permissionOverwrites": [
+        {
+          "roleName": "♂",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "roleName": "♀",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "roleName": "@everyone",
+          "allow": "0",
+          "deny": "1048576"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531464020688953",
+      "name": "Private Channels",
+      "type": 4,
+      "position": 3,
+      "parentId": null,
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": null,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "36701184",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1264531418147717185",
+      "name": "logs",
+      "type": 0,
+      "position": 4,
+      "parentId": "1264531383318085632",
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": null,
+      "permissionOverwrites": [
+        {
+          "roleName": "Xenos Bot",
+          "allow": "3072",
+          "deny": "0"
+        },
+        {
+          "roleName": "@everyone",
+          "allow": "0",
+          "deny": "3072"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531444815106088",
+      "name": "medya",
+      "type": 0,
+      "position": 2,
+      "parentId": "1264531433511321762",
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": null,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "37014592",
+          "deny": "131072"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531440507551837",
+      "name": "bot-commands",
+      "type": 0,
+      "position": 1,
+      "parentId": "1264531433511321762",
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": null,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "2184449088",
+          "deny": "0"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531477857828958",
+      "name": "Afk¹",
+      "type": 2,
+      "position": 0,
+      "parentId": "1264531475685052489",
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": 64000,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "36701184",
+          "deny": "0"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531457347682437",
+      "name": "bağacaz",
+      "type": 2,
+      "position": 2,
+      "parentId": "1264531453278949420",
+      "nsfw": false,
+      "userLimit": 15,
+      "bitrate": 64000,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "36701184",
+          "deny": "0"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531473621454928",
+      "name": "Private⁴",
+      "type": 2,
+      "position": 3,
+      "parentId": "1264531464020688953",
+      "nsfw": false,
+      "userLimit": 5,
+      "bitrate": 64000,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "36701184",
+          "deny": "0"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531383318085632",
+      "name": "Info Channels",
+      "type": 4,
+      "position": 0,
+      "parentId": null,
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": null,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "1088",
+          "deny": "2048"
+        }
+      ]
+    },
+    {
+      "id": "1264531459562016860",
+      "name": "casper",
+      "type": 2,
+      "position": 1,
+      "parentId": "1264531453278949420",
+      "nsfw": false,
+      "userLimit": 15,
+      "bitrate": 64000,
+      "permissionOverwrites": [
+        {
+          "roleName": "Family Of Server",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "roleName": "@everyone",
+          "allow": "36701184",
+          "deny": "0"
+        },
+        {
+          "roleName": "Poseidon",
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531494840303758",
+      "name": "💜 Üye 46",
+      "type": 2,
+      "position": 1,
+      "parentId": "1264531490432352257",
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": 64000,
+      "permissionOverwrites": [
+        {
+          "roleName": "♀",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "roleName": "♂",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "roleName": "@everyone",
+          "allow": "0",
+          "deny": "1048576"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531428973219872",
+      "name": "izlenicek",
+      "type": 0,
+      "position": 5,
+      "parentId": "1264531383318085632",
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": null,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "0",
+          "deny": "3072"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531413672136747",
+      "name": "yetkili-chat",
+      "type": 0,
+      "position": 3,
+      "parentId": "1264531383318085632",
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": null,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "64",
+          "deny": "3072"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531498980085870",
+      "name": "🟢 3 ⛔ 5 🌙 0 ⚫ 37",
+      "type": 2,
+      "position": 3,
+      "parentId": "1264531490432352257",
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": 64000,
+      "permissionOverwrites": [
+        {
+          "roleName": "♀",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "roleName": "♂",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "roleName": "@everyone",
+          "allow": "0",
+          "deny": "1048576"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531471633481728",
+      "name": "Private³",
+      "type": 2,
+      "position": 2,
+      "parentId": "1264531464020688953",
+      "nsfw": false,
+      "userLimit": 3,
+      "bitrate": 64000,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "36701184",
+          "deny": "0"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531482005737482",
+      "name": "「🔗」reg-chat",
+      "type": 0,
+      "position": 0,
+      "parentId": "1264531479438823498",
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": null,
+      "permissionOverwrites": [
+        {
+          "roleName": "Register-Staff",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "roleName": "@everyone",
+          "allow": "0",
+          "deny": "33792"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "3072",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1264531406776696933",
+      "name": "announcements",
+      "type": 0,
+      "position": 1,
+      "parentId": "1264531383318085632",
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": null,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "1088",
+          "deny": "2048"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531475685052489",
+      "name": "Alone Channels",
+      "type": 4,
+      "position": 4,
+      "parentId": null,
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": null,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "36701184",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1264531485919154187",
+      "name": "「🔗」Ses Teyit",
+      "type": 2,
+      "position": 0,
+      "parentId": "1264531479438823498",
+      "nsfw": false,
+      "userLimit": 4,
+      "bitrate": 64000,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "3146752",
+          "deny": "0"
+        },
+        {
+          "roleName": "Register-Staff",
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1264531448791306282",
+      "name": "free-games",
+      "type": 0,
+      "position": 3,
+      "parentId": "1264531433511321762",
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": null,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "36963392",
+          "deny": "2048"
+        },
+        {
+          "roleName": "♂",
+          "allow": "0",
+          "deny": "0"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531386774196235",
+      "name": "1881-193∞",
+      "type": 0,
+      "position": 0,
+      "parentId": "1264531383318085632",
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": null,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "1088",
+          "deny": "2048"
+        }
+      ]
+    },
+    {
+      "id": "1264531453278949420",
+      "name": "Global Channels",
+      "type": 4,
+      "position": 2,
+      "parentId": null,
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": null,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "36701184",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1264531492680372285",
+      "name": "💜 Toplam 51",
+      "type": 2,
+      "position": 0,
+      "parentId": "1264531490432352257",
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": 64000,
+      "permissionOverwrites": [
+        {
+          "roleName": "♀",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "roleName": "@everyone",
+          "allow": "0",
+          "deny": "1048576"
+        },
+        {
+          "roleName": "♂",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1317925628183449721",
+      "name": "whiskey",
+      "type": 2,
+      "position": 0,
+      "parentId": "1264531453278949420",
+      "nsfw": false,
+      "userLimit": 15,
+      "bitrate": 64000,
+      "permissionOverwrites": [
+        {
+          "roleName": "Athena",
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "roleName": "Family Of Server",
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "roleName": "Vip",
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "roleName": "@everyone",
+          "allow": "36700160",
+          "deny": "1024"
+        },
+        {
+          "roleName": "Poseidon",
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531436149411893",
+      "name": "genel-chat",
+      "type": 0,
+      "position": 0,
+      "parentId": "1264531433511321762",
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": null,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "37030976",
+          "deny": "805494800"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531469183746140",
+      "name": "Private²",
+      "type": 2,
+      "position": 1,
+      "parentId": "1264531464020688953",
+      "nsfw": false,
+      "userLimit": 2,
+      "bitrate": 64000,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "36701184",
+          "deny": "0"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531466893922320",
+      "name": "Private¹",
+      "type": 2,
+      "position": 0,
+      "parentId": "1264531464020688953",
+      "nsfw": false,
+      "userLimit": 2,
+      "bitrate": 64000,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "36701184",
+          "deny": "0"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531488305844224",
+      "name": "「🔗」Ses Teyit",
+      "type": 2,
+      "position": 1,
+      "parentId": "1264531479438823498",
+      "nsfw": false,
+      "userLimit": 4,
+      "bitrate": 64000,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "3146752",
+          "deny": "0"
+        },
+        {
+          "roleName": "Register-Staff",
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1264531479438823498",
+      "name": "Register Channels",
+      "type": 4,
+      "position": 5,
+      "parentId": null,
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": null,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531408869654611",
+      "name": "rules",
+      "type": 0,
+      "position": 2,
+      "parentId": "1264531383318085632",
+      "nsfw": false,
+      "userLimit": null,
+      "bitrate": null,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "1088",
+          "deny": "2048"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1264531461709627465",
+      "name": "dolmuş",
+      "type": 2,
+      "position": 3,
+      "parentId": "1264531453278949420",
+      "nsfw": false,
+      "userLimit": 15,
+      "bitrate": 64000,
+      "permissionOverwrites": [
+        {
+          "roleName": "@everyone",
+          "allow": "36700160",
+          "deny": "0"
+        },
+        {
+          "roleName": "Unregistered",
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    }
+  ]
+}

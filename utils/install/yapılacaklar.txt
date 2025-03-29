@@ -1,0 +1,4 @@
+stats durum kontrol edilecek
+backup sistemi gözden geçirilecek
+guard sistemi gözden geçirilicek
+Yedek sayısı sınırı konulabilir

@@ -1,0 +1,86 @@
+{
+  "1352294153341505599": {
+    "1355022570742743171": {
+      "owner": "440222721079508993",
+      "backupData": {
+        "name": "asdsad",
+        "parent": "1352303834847776779",
+        "userLimit": 2,
+        "permissionOverwrites": [
+          {
+            "id": "440222721079508993",
+            "allow": [
+              "CreateInstantInvite",
+              "ManageChannels",
+              "PrioritySpeaker",
+              "Stream",
+              "ViewChannel",
+              "Connect",
+              "Speak",
+              "MuteMembers",
+              "MoveMembers",
+              "UseVAD"
+            ],
+            "deny": [],
+            "type": 1
+          },
+          {
+            "id": "1352294153341505599",
+            "allow": [
+              "ViewChannel"
+            ],
+            "deny": [
+              "Connect"
+            ],
+            "type": 0
+          }
+        ]
+      }
+    },
+    "1355176689029873755": {
+      "owner": "1355172721151054028",
+      "backupData": {
+        "name": "asdsa",
+        "parent": "1352303834847776779",
+        "userLimit": 2,
+        "permissionOverwrites": [
+          {
+            "id": "1355172721151054028",
+            "allow": [
+              "CreateInstantInvite",
+              "ManageChannels",
+              "PrioritySpeaker",
+              "Stream",
+              "ViewChannel",
+              "Connect",
+              "Speak",
+              "MuteMembers",
+              "MoveMembers",
+              "UseVAD"
+            ],
+            "deny": [],
+            "type": 1
+          },
+          {
+            "id": "1352294153341505599",
+            "allow": [
+              "ViewChannel"
+            ],
+            "deny": [
+              "Connect"
+            ],
+            "type": 0
+          },
+          {
+            "id": "440222721079508993",
+            "allow": [],
+            "deny": [
+              "Connect"
+            ],
+            "type": 1
+          }
+        ]
+      }
+    }
+  }
+}

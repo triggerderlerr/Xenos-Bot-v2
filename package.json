@@ -1,0 +1,41 @@
+{
+  "name": "triggerX",
+  "version": "2.7.1",
+  "description": "Discord.JS v14 Slash Uyumlu Altyapı",
+  "main": "shard.js",
+  "scripts": {
+    "build": "npm install",
+    "start": "node --trace-warnings shard.js"
+  },
+  "author": "triggerX",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/rest": "^1.1.0",
+    "axios": "^1.7.9",
+    "canvas": "^2.11.2",
+    "croxydb": "^0.0.26",
+    "discord-api-types": "^0.37.119",
+    "discord.js": "~14.11.0",
+    "dotenv": "^16.4.7",
+    "fs": "^0.0.2",
+    "fs-jetpack": "^5.1.0",
+    "gifencoder": "^2.0.1",
+    "har-validator": "^5.1.5",
+    "humanize-duration": "^3.32.1",
+    "moment": "^2.30.1",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^8.10.0",
+    "ms": "^2.1.3",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "superagent": "^10.1.1"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
